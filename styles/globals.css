@@ -1,0 +1,46 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Eina";
+  src: url("/fonts/Eina.otf");
+}
+
+
+@font-face {
+  font-family: "Eina Light";
+  src: url("/fonts/Eina-Light.otf");
+}
+
+@font-face {
+  font-family: "Eina SemiBold";
+  src: url("/fonts/Eina-SemiBold.otf");
+}
+
+@layer base {
+  p, h1, h2, h3, h4, h5 {
+    color: rgba(0, 0, 0, .8);
+    font-family: Eina;
+  }
+}
+
+.Toastify__progress-bar--default {
+  background: #89bdf9 !important;
+}
+
+.topov {
+  border: 1px solid black;
+  z-index: 1;
+  background-image: url("https://i.ibb.co/4TKVQn2/Rectangle-3464015.png");
+  background-repeat: no-repeat;
+ }
+
+ .insert_image{
+  width: 78px;
+  height: 32px; 
+  background: #B8FFC3;
+  justify-content: center;
+  border-radius: 1% 30% 0% 40%;
+ }
